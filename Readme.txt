@@ -40,9 +40,7 @@ Clone the Repository:
 
 Bash
 
-git clone https://github.com/your-username/emotion-classifier-langgraph.git
-cd emotion-classifier-langgraph
-(Note: Replace your-username/emotion-classifier-langgraph.git with your actual repository URL) 
+https://github.com/krishnasurya9/Self-Healing-Classification-DAG-with-Fine-Tuned-Model-.git
 
 Create a Virtual Environment (Recommended):
 
