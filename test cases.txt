@@ -1,0 +1,29 @@
+Here are some example test cases, presented as plain text, for your emotion classifier:
+
+Input: "I am absolutely thrilled with the results, this is fantastic!"
+
+Expected Behavior: High confidence classification of "joy" or similar positive emotion, no fallback triggered.
+Input: "This situation is quite frustrating and confusing."
+
+Expected Behavior: Low confidence detection, triggering a fallback (e.g., user clarification), with initial labels possibly including "frustration" and "confusion."
+Input: "The sky is blue today."
+
+Expected Behavior: Classification as "neutral" with high confidence, no fallback triggered.
+Input: "I am beyond furious with this blatant disregard!"
+
+Expected Behavior: High confidence classification of "anger," no fallback triggered.
+Input: "A wave of sadness washed over me as I heard the news."
+
+Expected Behavior: High confidence classification of "sadness," no fallback triggered.
+Input: "Feeling a bit off today, can't quite put my finger on it."
+
+Expected Behavior: Low confidence detection, triggering a fallback due to ambiguity.
+Input: "This movie was neither good nor bad, just okay."
+
+Expected Behavior: Classification as "neutral" or very low confidence across specific emotions, potentially leading to fallback if a hard threshold is set.
+Input: "I appreciate your help, thank you so much!"
+
+Expected Behavior: High confidence classification of "gratitude" or "joy."
+Input: "I'm scared of what might happen next."
+
+Expected Behavior: High confidence classification of "fear."
