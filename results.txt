@@ -1,0 +1,44 @@
+✅ Evaluation Metrics:
+F1 Score (micro): 0.4942
+F1 Score (macro): 0.2819
+
+📊 Per-Label Report:
+
+                precision    recall  f1-score   support
+
+    admiration       0.76      0.59      0.66       488
+     amusement       0.80      0.61      0.69       303
+         anger       0.58      0.20      0.30       195
+     annoyance       1.00      0.00      0.01       303
+      approval       0.86      0.08      0.14       397
+        caring       0.83      0.07      0.12       153
+     confusion       0.67      0.03      0.05       152
+     curiosity       0.47      0.38      0.42       248
+        desire       0.88      0.29      0.43        77
+disappointment       0.00      0.00      0.00       163
+   disapproval       1.00      0.02      0.04       292
+       disgust       0.88      0.07      0.13        97
+ embarrassment       0.00      0.00      0.00        35
+    excitement       0.80      0.04      0.08        96
+          fear       0.93      0.16      0.27        90
+     gratitude       0.92      0.88      0.90       358
+         grief       0.00      0.00      0.00        13
+           joy       0.72      0.26      0.38       172
+          love       0.76      0.77      0.76       252
+   nervousness       0.00      0.00      0.00        21
+      optimism       0.78      0.37      0.50       209
+         pride       0.00      0.00      0.00        15
+   realization       0.00      0.00      0.00       127
+        relief       0.00      0.00      0.00        18
+       remorse       0.73      0.60      0.66        68
+       sadness       0.72      0.32      0.44       143
+      surprise       0.58      0.20      0.30       129
+       neutral       0.70      0.53      0.60      1766
+
+     micro avg       0.73      0.37      0.49      6380
+     macro avg       0.58      0.23      0.28      6380
+  weighted avg       0.72      0.37      0.43      6380
+   samples avg       0.43      0.40      0.41      6380
+
+
+
